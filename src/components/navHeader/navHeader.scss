@@ -1,0 +1,32 @@
+@import '../general.scss';
+
+.nav-header {
+    width: $maxWidth;
+    height: 50px;
+    background: linear-gradient(rgb(175, 173, 243), rgb(65, 64, 101));
+    position: fixed;
+    z-index: 1;
+
+
+    .ul-nav {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        justify-content: flex-end;
+        padding: 10px;
+        margin: 0;
+        padding-right: 20px;
+    }
+
+    .li-nav {
+        list-style-type: none;
+
+        font-size: 20px;
+    }
+
+    .li-nav a {
+        color: white;
+        text-decoration: none;
+    }
+
+}

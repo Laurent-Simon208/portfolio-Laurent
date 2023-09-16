@@ -1,0 +1,48 @@
+[
+    {
+        "id": "abc",
+        "title": "Booki",
+        "description": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
+        "links": {
+            "github": "https://github.com/Laurent-Simon208/Projet-Booki",
+            "site":  "https://laurent-simon208.github.io/Projet-Booki/"
+        },
+        "image": "https://i.imgur.com/KlJMn6x.png",
+        "skills": [
+            "Html",
+            "Css"
+        ]
+    },
+    {
+        "id": "abcd",
+        "title": "Kasa",
+        "description": "Création d'une application web de location immobilière avec React",
+        "links": {
+            "github": "https://laurent-simon208.github.io/Kasa/",
+            "site":  " https://laurent-simon208.github.io/Kasa/"
+        },
+        "image": "https://i.imgur.com/jee6PoX.jpg",
+        "skills": [
+            "Html",
+            "Css",
+            "React"
+        ]
+    },
+    {
+        "id": "abcde",
+        "title": "Kasa",
+        "description": "Création d'une application web de location immobilière avec React",
+        "links": {
+            "github": "https://laurent-simon208.github.io/Kasa/",
+            "site":  " https://laurent-simon208.github.io/Kasa/"
+        },
+        "image": "https://i.imgur.com/jee6PoX.jpg",
+        "skills": [
+            "Html",
+            "Css",
+            "React"
+        ]
+    }
+    
+]
+
