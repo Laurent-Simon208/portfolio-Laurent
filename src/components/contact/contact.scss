@@ -37,7 +37,12 @@
             border-radius: 25% 25% 25% 25%/ 45% 45% 45% 45%;
         }
 
-        .contact-button:hover {}
+        .contact-button:hover {
+            background: #CE5937;
+            background: -moz-radial-gradient(center, rgb(255, 194, 138) 0%, #414065 82%, rgb(255, 194, 138) 100%);
+            background: -webkit-radial-gradient(center, rgb(255, 194, 138) 0%, #414065 82%, rgb(255, 194, 138) 100%);
+            background: radial-gradient(ellipse at center, rgb(255, 194, 138) 0%, #414065 82%, rgb(255, 194, 138) 100%);
+        }
     }
 
 

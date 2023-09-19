@@ -20,8 +20,11 @@
 
     .li-nav {
         list-style-type: none;
-
         font-size: 20px;
+
+        &:hover {
+            border-bottom: rgb(255, 194, 138) 2px solid;
+        }
     }
 
     .li-nav a {

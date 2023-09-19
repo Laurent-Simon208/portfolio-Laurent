@@ -2,7 +2,8 @@
     {
         "id": "abc",
         "title": "Booki",
-        "description": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
+        "title-description": "Création de la page d'accueil d'une agence de voyages avec HTML & CSS",
+        "description": "Ce projet est un projet de façade, le but était de se familiariser avec le HTML et le Css pour rendre une interface identique à une maquette fournie.\nJ'y ai découvert les flexbox, très utiles pour organiser les différentes cards et avoir un rendu image-légende agréable. L'enjeu de ce projet pour moi a été de comprendre l'utilité des balises HTML, mais aussi leur imbrication les unes dans les autres à l'instar de poupées russes.\nLa grosse difficulté a été de gérer au mieux cette articulation pour facilité un maximum le code Css et par la suite rendre le site responsive. Je me suis rendu compte qu'un mauvais balisage ou imbrication rendait l'étape Css beaucoup plus laborieuse et fastidieuse.\nEn conclusion:\nIl est très important de se concentrer sur une structure HTML propre et précise afin de rendre le codage css et responsive plus agréable.",
         "links": {
             "github": "https://github.com/Laurent-Simon208/Projet-Booki",
             "site":  "https://laurent-simon208.github.io/Projet-Booki/"
@@ -16,7 +17,8 @@
     {
         "id": "abcd",
         "title": "Kasa",
-        "description": "Création d'une application web de location immobilière avec React",
+        "title-description": "Création d'une application web de location immobilière avec React",
+        "description": "L'objectif de ce projet était de créer le front-end complet d'un site de location immobilière avec React. Ce fut mes premiers pas avec cette bibliothèque et son système de composants.\nJ'ai directement adhéré à cette organisation en étant sensible au JSX qui mêle balisage Html et lignes de code Javascript.\nJe trouve très élégant l'idée d'avoir un site complexe organisé avec de multiples composants très compacts, proposant des fonctions et un rendu HTML dans un seul et même fichier.\nCe projet m'a permis de découvrir Sass et Scss qui me semble être l'évolution parfaite du Css.\nJ'ai tout de même rencontré quelques difficultés dans l'apprentissage, notamment dans la gestion et l'utilisation des props entre dossiers parents-enfants. Il m'a également fallu un certain temps pour maitriser les Hooks les plus courants.\nHeureusement, à force d'entraînement et de tests, j'ai su maitrîser ces outils et j'aborde, maintenant, des notions que je ne connais pas encore beaucoup plus sereinement.  ",
         "links": {
             "github": "https://laurent-simon208.github.io/Kasa/",
             "site":  " https://laurent-simon208.github.io/Kasa/"
@@ -25,12 +27,14 @@
         "skills": [
             "Html",
             "Css",
-            "React"
+            "React",
+            "Sass"
         ]
     },
     {
         "id": "abcde",
         "title": "Kasa",
+        "title-description": "",
         "description": "Création d'une application web de location immobilière avec React",
         "links": {
             "github": "https://laurent-simon208.github.io/Kasa/",
@@ -40,7 +44,8 @@
         "skills": [
             "Html",
             "Css",
-            "React"
+            "React",
+            "Sass"
         ]
     }
     

@@ -9,6 +9,10 @@
     background: -webkit-linear-gradient(top, #16142D 0%, #696794 70%, #FFC28A 100%);
     background: linear-gradient(to bottom, #16142D 0%, #696794 70%, #FFC28A 100%);
 
+    @media (max-width: 400px) {
+        background-color: aqua;
+    }
+
     .banner {
 
         height: 100%;
@@ -17,6 +21,8 @@
         justify-content: space-around;
         align-self: center;
         align-items: center;
+
+        @media (max-width: 400px) {}
 
         .h1-banner {
             color: white;

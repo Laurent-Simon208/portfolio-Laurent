@@ -3,56 +3,85 @@ import works from '../../datas/works.json';
 import Modal from '../modal/Modal';
 import React, { useState, useEffect } from 'react';
 
+
+
 function Works() {
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const [selectedProjectId, setSelectedProjectId] = useState(null);
+    const [selectedWork, setSelectedWork] = useState(null);
 
-    const openModal = (id) => {
-        setSelectedProjectId(id);
+
+    const openModal = (work) => {
+        setSelectedWork(work);
         setIsModalOpen(true);
-    }
+    };
+
 
     const closeModal = () => {
-        setSelectedProjectId(null);
+        setSelectedWork(null);
         setIsModalOpen(false);
-    }
-    useEffect(() => {
-        const handleOutsideClick = (event) => {
-            if (isModalOpen) {
-                const modal = document.querySelector('.modal');
-                if (modal && !modal.contains(event.target)) {
-                    closeModal();
-                }
-            }
-        };
+    };
 
-        window.addEventListener('click', handleOutsideClick);
+    const handleOverlayClick = (e) => {
 
-        return () => {
-            window.removeEventListener('click', handleOutsideClick);
-        };
-    }, [isModalOpen]);
+        if (e.target.classList.contains('overlay')) {
+            closeModal();
+        }
+    };
+    const renderDescription = (description) => {
+        const lines = description.split('\n');
+        return lines.map((line, index) => (
+            <p key={index}>{line}</p>
+        ));
+    };
 
     return (
         <div className='wrap-works' id='sectionWorks'>
+            {isModalOpen && <div className='overlay' onClick={handleOverlayClick}></div>}
             <div className='wrapper-works'>
                 <h1 className='works-h1'>Projets</h1>
                 <div className='cards-projet'>
                     {works.map((work) => (
                         <div
                             className='card-projet'
-                            onClick={() => openModal(work.id)}
                             style={{ backgroundImage: `url(${work.image})` }}
                             key={work.id}
+                            onClick={() => openModal(work)}
                         >
                             <div className='card-description'>
-                                <h2>{work.title}</h2>
+                                <h2 className='h2-description'>{work.title}</h2>
+                                <div className='skills-legend'>
+                                    <h3 className='h3-skills'>Compétences exploités :</h3>
+                                    <ul className='ul-skills'>
+                                        {work.skills.map((skill) =>
+                                            <li className='li-skill'><pre>&lt;{skill}/&gt;</pre></li>
+                                        )}
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     ))}
                 </div>
             </div>
-            <Modal isOpen={isModalOpen} closeModal={closeModal} content={selectedProjectId} />
+
+            {isModalOpen && (
+                <Modal onClose={closeModal}  >
+                    {selectedWork && (
+
+                        <div>
+                            <div className='modal-legend'>
+                                <h2 className='h2-modal'>{selectedWork.title}</h2>
+                                <div className='modal-description'>
+                                    {renderDescription(selectedWork.description)}
+                                </div>
+                                <ul className='modal-ul'>
+                                    <li><a href={selectedWork.links.site} className='modal-li'>Site web</a></li>
+                                    <li><a href={selectedWork.links.github} className='modal-li'>GitHub</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    )}
+                </Modal>
+            )}
         </div>
     );
 }
