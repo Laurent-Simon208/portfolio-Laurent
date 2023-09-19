@@ -35,4 +35,26 @@
 
 
     }
+
+    @media (max-width: 400px) {
+
+        .wrap-about {
+            .about-h1 {
+                font-size: 30px;
+                margin-bottom: 30px;
+            }
+
+            .about-p {
+                width: 90%;
+                text-align: center;
+            }
+
+            .about-skills {
+                margin-top: 30px;
+            }
+        }
+
+
+
+    }
 }

@@ -11,7 +11,7 @@ function Skills() {
         <div className='skills'>
             <h2 className='about-h2'>Je maitrise :</h2>
             <ul className='ul-skills'>
-                <li className='li-skill' ><img src={logoHtml} alt="logo html" className='logo-skills' /><p className='display-p'>Html</p></li>
+                <li className='li-skill' ><img src={logoHtml} alt="logo html" className='logo-skills' /></li>
                 <li className='li-skill'><img src={logoCss} alt="logo css" className='logo-skills' /></li>
                 <li className='li-skill'><img src={logoSass} alt="logo sass" className='logo-skills' /></li>
                 <li className='li-skill'><img src={logoJs} alt="logo javascript" className='logo-skills' /></li>
