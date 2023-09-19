@@ -6,6 +6,16 @@
     -webkit-border-radius: 0px 0px 0px 20% / 0px 0px 0px 250px;
     position: relative;
 
+    @media (max-width: 900px) {
+        border-radius: 0px 0px 0px 0px;
+        -webkit-border-radius: 0px 0% 0% 40%/ 0px 0px 0px 200px;
+    }
+
+    @media (max-width: 500px) {
+        border-radius: 0px 0px 0px 0px;
+        -webkit-border-radius: 0px 0% 0% 40%/ 0px 0px 0px 100px;
+    }
+
     .wrapper-works {
         padding-bottom: 100px;
         position: relative;
@@ -17,7 +27,7 @@
             margin-left: 100px;
             padding-top: 30px;
 
-            @media (max-width: 400px) {
+            @media (max-width: 900px) {
                 text-align: center;
                 margin-left: 0;
             }
@@ -33,7 +43,7 @@
             height: 100%;
             margin: 30px 120px;
 
-            @media (max-width: 400px) {
+            @media (max-width: 900px) {
                 grid-template-columns: 1fr;
                 margin: 30px 0;
             }
@@ -52,10 +62,11 @@
                 border-radius: 3%;
                 position: relative;
 
-                @media (max-width: 400px) {
+
+                @media (max-width: 900px) {
                     width: 80%;
                     margin: auto;
-                    height: 300px;
+                    height: 400px;
                 }
 
                 &:hover {
@@ -75,7 +86,7 @@
                     cursor: pointer;
 
                     .card-description {
-                        font-size: 45px;
+                        font-size: 40px;
                         height: 100%;
                         width: 100%;
                         position: absolute;
@@ -87,9 +98,9 @@
                         justify-content: space-around;
 
                         .h2-description {
-                            margin-bottom: 50px;
+                            margin-bottom: 15%;
                             color: white;
-                            margin-top: 50px;
+                            margin-top: 15%;
                         }
 
                         .skills-legend {
@@ -100,7 +111,7 @@
                         }
 
                         .h3-skills {
-                            font-size: 26px;
+                            font-size: 20px;
                             color: white;
                             text-align: center;
                         }
@@ -108,16 +119,17 @@
                         .ul-skills {
                             width: 100%;
                             list-style-type: none;
-                            display: flex;
-                            flex-direction: row;
+                            display: grid;
+                            grid-template-columns: 1fr 1fr;
+                            text-align: center;
                             color: white;
                             font-weight: 500;
                             padding: 0;
-                            font-size: 22px;
+                            font-size: 18px;
                             align-items: center;
                             justify-content: center;
                             gap: 2%;
-                            margin-bottom: 20px;
+                            margin-bottom: 10%;
                         }
 
 

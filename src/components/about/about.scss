@@ -22,6 +22,7 @@
         }
 
         .about-p {
+            text-align: center;
             font-size: 24px;
             width: 70%;
             margin: auto;
@@ -36,12 +37,24 @@
 
     }
 
-    @media (max-width: 400px) {
+    @media (max-width: 900px) {
+        .wrap-about {
+            border-radius: 0px 0px 0px 0px;
+            -webkit-border-radius: 0px 40% 40% 0px/ 0px 200px 200px 0px;
+        }
+    }
+
+    @media (max-width: 500px) {
 
         .wrap-about {
+            border-radius: 0px 0px 0px 0px;
+            -webkit-border-radius: 0px 40% 40% 0px/ 0px 100px 100px 0px;
+
             .about-h1 {
                 font-size: 30px;
                 margin-bottom: 30px;
+
+
             }
 
             .about-p {
