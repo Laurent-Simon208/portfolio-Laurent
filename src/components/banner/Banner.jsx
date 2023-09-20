@@ -11,7 +11,7 @@ function Banner() {
                     <h1 className='h1-banner'>Laurent Simon</h1>
                     <h2 className='h2-banner'>Développeur web</h2>
                 </div>
-                <div className='banner-photo'>
+                <div className='banner-photo' >
                     <img className='banner-img' src={photoDeMoi} alt="selfie de moi" />
                 </div>
             </div>
