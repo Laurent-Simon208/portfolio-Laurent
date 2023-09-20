@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-laurent/static/css/main.31e68bec.css",
-    "main.js": "/portfolio-laurent/static/js/main.daa6f51d.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio-laurent/static/js/787.1ed0c42c.chunk.js",
-    "static/media/IMG_20230520_170959.jpg": "/portfolio-laurent/static/media/IMG_20230520_170959.959c12e96b639b86afd7.jpg",
-    "static/media/icons8-réagir-160.png": "/portfolio-laurent/static/media/icons8-réagir-160.89996b225745a7b82cf2.png",
-    "index.html": "/portfolio-laurent/index.html",
-    "main.31e68bec.css.map": "/portfolio-laurent/static/css/main.31e68bec.css.map",
-    "main.daa6f51d.js.map": "/portfolio-laurent/static/js/main.daa6f51d.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio-laurent/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/portfolio-Laurent/static/css/main.caf8f868.css",
+    "main.js": "/portfolio-Laurent/static/js/main.d14fe547.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio-Laurent/static/js/787.1ed0c42c.chunk.js",
+    "static/media/IMG_20230520_170959.jpg": "/portfolio-Laurent/static/media/IMG_20230520_170959.959c12e96b639b86afd7.jpg",
+    "static/media/icons8-réagir-160.png": "/portfolio-Laurent/static/media/icons8-réagir-160.89996b225745a7b82cf2.png",
+    "index.html": "/portfolio-Laurent/index.html",
+    "main.caf8f868.css.map": "/portfolio-Laurent/static/css/main.caf8f868.css.map",
+    "main.d14fe547.js.map": "/portfolio-Laurent/static/js/main.d14fe547.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio-Laurent/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31e68bec.css",
-    "static/js/main.daa6f51d.js"
+    "static/css/main.caf8f868.css",
+    "static/js/main.d14fe547.js"
   ]
 }
