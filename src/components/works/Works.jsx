@@ -74,7 +74,6 @@ function Works() {
                                     {renderDescription(selectedWork.description)}
                                 </div>
                                 <ul className='modal-ul'>
-                                    <li><a href={selectedWork.links.site} className='modal-li'>Site web</a></li>
                                     <li><a href={selectedWork.links.github} className='modal-li'>GitHub</a></li>
                                 </ul>
                             </div>
