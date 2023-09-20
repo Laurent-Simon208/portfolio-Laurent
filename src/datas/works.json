@@ -30,6 +30,21 @@
             "React",
             "Sass"
         ]
+    },
+    {
+        "id": "abcde",
+        "title": "Mon vieux grimmoire",
+        "title-description": "Développer le back-end d'un site de notation de livres",
+        "description": "Mon Vieux grimoire est un site de partage de livres avec un système de notation. Le front-end  m'a été fourni et j'ai codé le back-end à partir des spécifications techniques.\nJ'ai trouvé ce projet très intéressant, car j'ai pu découvrir comment sont gérées les requêtes du front-end.\nLorsque j'ai commencé à coder, le plus compliqué a été de faire la distinction entre middleware et CRUD ainsi que de savoir à quel niveau agissait mongosse.\nMaintenant je comprends les mécanismes du back et je sais utiliser les middlewares, gérer les données avec les CRUD, créer des modèles de données et communiquer avec MongoDB grâce à mongoose. Tout ceci en assurant la sécutité du site.\nAprès un apprentissage du front, j'ai trouvé très stimulant de pouvoir créer un environnement back-end complet.\nJe suis fier du rendu final et d'avoir pu rendre opérationnelles toutes les fonctionnalités demandées. ",
+        "links": {
+            "github": "https://github.com/Laurent-Simon208/mon_vieux_grimoire.git",
+            "site":  ""
+        },
+        "image": "https://i.imgur.com/7VUVxGs.png",
+        "skills": [
+            "Node",
+            "Express"
+        ]
     }
     
 ]
