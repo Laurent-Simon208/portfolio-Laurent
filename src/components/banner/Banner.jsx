@@ -12,7 +12,7 @@ function Banner() {
                     <h2 className='h2-banner'>Développeur web</h2>
                 </div>
                 <div className='banner-photo'>
-                    <img className='banner-img' src={photoDeMoi} alt="photo de moi" />
+                    <img className='banner-img' src={photoDeMoi} alt="selfie de moi" />
                 </div>
             </div>
         </section>

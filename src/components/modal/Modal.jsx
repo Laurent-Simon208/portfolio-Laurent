@@ -1,5 +1,4 @@
 import './modal.scss';
-import works from '../../datas/works.json';
 import React from 'react';
 
 

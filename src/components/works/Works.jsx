@@ -1,7 +1,7 @@
 import './works.scss';
 import works from '../../datas/works.json';
 import Modal from '../modal/Modal';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 
 
@@ -22,7 +22,6 @@ function Works() {
     };
 
     const handleOverlayClick = (e) => {
-
         if (e.target.classList.contains('overlay')) {
             closeModal();
         }
@@ -52,8 +51,8 @@ function Works() {
                                 <div className='skills-legend'>
                                     <h3 className='h3-skills'>Compétences exploités :</h3>
                                     <ul className='ul-skills'>
-                                        {work.skills.map((skill) =>
-                                            <li className='li-skill'><pre>&lt;{skill}/&gt;</pre></li>
+                                        {work.skills.map((skill, index) =>
+                                            <li key={index} className='li-skill'><pre>&lt;{skill}/&gt;</pre></li>
                                         )}
                                     </ul>
                                 </div>

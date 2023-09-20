@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 import './index.css';
 import HomePage from './pages/homePage/HomePage';
-import WorksPage from './pages/worksPage/WorksPage';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
